@@ -1,0 +1,862 @@
+@import url(./Satoshi_Complete/Fonts/WEB/css/satoshi.css);
+
+* {
+    font-family: 'Satoshi', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+section {
+    width: 1440px;
+}
+
+/*================= 
+    HERO AREA
+===================*/
+#hero_section {
+    height: 1024px;
+    background-image: url(./IMG/Hero\ Image.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#hero_section .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1, 440px;
+    height: 83px;
+    padding: 19px 80px 19px 80px;
+}
+
+#hero_section .header a {
+    width: 107.9px;
+    height: 32px;
+}
+
+#hero_section .header a img {
+    width: 107.9px;
+    height: 32px;
+}
+
+#hero_section .header button {
+    width: 117px;
+    height: 45px;
+    padding: 10px 18px 10px 18px;
+    gap: 8px;
+    border-radius: 12px;
+    background: #FCFCFC;
+    cursor: pointer;
+
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.8px;
+    text-align: left;
+
+}
+
+#hero_section .header nav {}
+
+#hero_section .header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#hero_section .header nav ul li {
+    padding: 5px;
+}
+
+#hero_section .header nav ul li a {
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+    text-align: left;
+    color: #FCFCFC;
+}
+
+#hero_section .hero_headline {
+    position: absolute;
+    top: 732px;
+    left: 78px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#hero_section .hero_headline h3 {
+    color: #fff;
+    font-family: 'Satoshi';
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 114.4px;
+    text-align: left;
+}
+
+#hero_section .hero_headline h3 span {
+    font-weight: 700;
+}
+
+#hero_section .hero_headline .scroll_down {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: -60px;
+    bottom: 10px;
+    cursor: pointer;
+
+}
+
+#hero_section .image_gallery {
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    height: 483px;
+    position: absolute;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    padding: 8px;
+    gap: 12px;
+    top: 508px;
+    left: 1168px;
+    background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
+
+}
+
+#hero_section .image_gallery img {
+    border-radius: 20px;
+}
+
+#hero_section .image_gallery #first_gallery_image {
+    border: 3px solid white;
+
+}
+
+/*================= 
+    About Section
+===================*/
+
+#about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+
+#about_us .upper_section {
+    width: 1, 280px;
+    height: 341px;
+    gap: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about_us .upper_section .learn_more_success {
+    width: 493px;
+    height: 263px;
+    gap: 32px;
+    position: relative;
+}
+
+#about_us .upper_section .learn_more_success p {
+    width: 493px;
+    height: 186px;
+    font-family: 'Satoshi';
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+#about_us .upper_section .learn_more_success button {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.8px;
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    bottom: 0;
+
+}
+
+#about_us .upper_section .text_about {
+    width: 662px;
+    height: 341px;
+    font-family: 'Satoshi';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color: #70707B;
+}
+
+#about_us .facilities {
+    width: 1280px;
+    height: 626px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#about_us .facilities .property_card {}
+
+#about_us .facilities .property_card .property_details {
+    width: 100%;
+
+}
+
+#about_us .facilities .property_card .property_details .property_title {
+    font-family: 'Satoshi';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+#about_us .facilities .property_card .property_details .property_discription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    color: #70707B;
+
+}
+
+#about_us .facilities #property_card_1 {
+    width: 316px;
+    height: 290px;
+    border-radius: 12px;
+
+}
+
+
+#about_us .facilities #property_card_2 {
+    margin-top: auto;
+    width: 402px;
+    height: 340px;
+    border-radius: 12px;
+}
+
+#about_us .facilities #property_card_3 {
+    width: 498px;
+    height: 399.88px;
+    border-radius: 11.11px;
+}
+
+/*================= 
+    Property Listing
+===================*/
+
+#property_listing_area {
+    padding: 80px;
+}
+
+#property_listing_area .heading {
+    padding: 40px 0;
+    width: 1, 280px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#property_listing_area .heading h3 {
+    width: 50%;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+#property_listing_area .heading p {
+    width: 50%;
+    color: #70707B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+
+}
+
+#property_listing_area .list {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#property_listing_area .list .cart {
+    width: 411px;
+    height: 467px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#property_listing_area .list .cart .preview {
+    width: 420px;
+    height: 339px;
+    border-radius: 12px;
+    position: relative;
+}
+
+#property_listing_area .list .cart .preview img {
+    width: 100%;
+    position: absolute;
+}
+
+#property_listing_area .list .cart .preview span {
+    position: absolute;
+    top: 10px;
+    background-color: #18181B;
+    color: #FCFCFC;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+#property_listing_area .list .cart .preview .home {
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#property_listing_area .list .cart .preview .home img {
+    height: 15px;
+    width: 15px;
+    position: static;
+    margin-right: 5px;
+}
+
+#property_listing_area .list .cart .preview .sale {
+    right: 10px;
+}
+
+#property_listing_area .list .cart .cart_details {
+    width: 420px;
+    height: 112px;
+    gap: 16px;
+}
+
+#property_listing_area .list .cart .cart_details .add_price {
+    width: 420px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#property_listing_area .list .cart .cart_details .add_price::after {
+    content: '';
+    background-color: #E4E4E7;
+    height: 2px;
+    border-radius: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#property_listing_area .list .cart .cart_details .add_price .address {}
+
+#property_listing_area .list .cart .cart_details .add_price .address h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+#property_listing_area .list .cart .cart_details .add_price .address p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.7px;
+    text-align: left;
+    color: #70707B;
+    display: flex;
+    align-items: center;
+}
+
+#property_listing_area .list .cart .cart_details .add_price .address p img {
+    width: 14px;
+    height: 14px;
+}
+
+#property_listing_area .list .cart .cart_details .add_price .price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+#property_listing_area .list .cart .cart_details .details {
+    width: 420px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+#property_listing_area .list .cart .cart_details .details span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+}
+
+#property_listing_area .list .cart .cart_details .details .sp1::after {
+    content: '';
+    background-color: #E4E4E7;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    right: -30px;
+}
+
+#property_listing_area .list .cart .cart_details .details .sp2::after {
+    content: '';
+    background-color: #E4E4E7;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    right: -30px;
+}
+
+
+#property_listing_area .list .cart .cart_details .details span img {
+    padding-right: 5px;
+    height: 24px;
+    width: 24px;
+}
+
+#property_listing_area .list .cart .cart_details .details span span {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #70707B;
+
+}
+
+#property_listing_area .view_more {
+    background-color: #18181B;
+    color: #FCFCFC;
+    width: 128px;
+    padding: 20px 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+/*================= 
+    Property Listing
+===================*/
+
+#FAQ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#FAQ .left_half {
+    width: 532px;
+    height: 683px;
+    gap: 56px;
+
+
+}
+
+#FAQ .left_half h3 {
+    font-size: 52px;
+    text-align: left;
+}
+
+#FAQ .left_half p {
+    font-size: 20px;
+    line-height: 31px;
+    color: #70707B;
+    margin: 40px 0 40px 0;
+}
+
+#FAQ .right_half {
+    width: 692px;
+    height: 683px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#FAQ .right_half p {
+    color: #70707B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27.9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+#FAQ .right_half p img {
+    cursor: pointer;
+}
+
+#FAQ .right_half .faq_is_active {
+    background-color: #FAFAFA;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 13px;
+    border: 1px;
+
+}
+
+#FAQ .right_half .faq_is_active h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+#FAQ .right_half .faq_is_active h3 img {
+    cursor: pointer;
+}
+
+/*================= 
+    tips_section
+===================*/
+
+#tips_section {
+    margin: 120px 0;
+}
+
+#tips_section .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1, 280px;
+    height: 84px;
+    align-items: center;
+}
+
+#tips_section .heading h2 {
+    width: 80%;
+    font-size: 52px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    height: 84px;
+}
+
+#tips_section .heading p {
+    color: #70707B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    width: 750px;
+    height: 84px;
+}
+
+#tips_section .tips_carts {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: ;
+}
+
+#tips_section .tips_carts .cart {
+    width: 410px;
+    height: 539px;
+
+}
+
+#tips_section .tips_carts .cart img {
+    width: 410px;
+    height: 424px;
+    border-radius: 12px;
+}
+
+#tips_section .tips_carts .cart .date_time {
+    width: 100%;
+    width: 410px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    color: #70707B;
+}
+
+#tips_section .tips_carts .cart .date_time .date {
+    margin-right: 20px;
+}
+
+#tips_section .tips_carts .cart .date_time .date,
+#tips_section .tips_carts .cart .date_time .time {
+    display: flex;
+    align-items: center;
+}
+
+#tips_section .tips_carts .cart .date_time .time img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#tips_section .tips_carts .cart h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    margin-top: 15px;
+}
+
+#tips_section .side_scroller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tips_section .side_scroller .nav_pointer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#tips_section .side_scroller .nav_pointer img {
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}
+
+#tips_section .side_scroller .arrow_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#tips_section .side_scroller .arrow_buttons img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*================= 
+    Get Help Section
+===================*/
+
+#get_help_section {
+    width: 1, 409px;
+    height: 648px;
+    padding: 57px 56px 57px 56px;
+    border-radius: 36px;
+    background-image: url(./IMG/Contact\ Form.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/*================= 
+    FOOTER
+===================*/
+#footer {
+    background-color: #18181B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 400px;
+    padding: 80px 56px 40px 56px;
+    gap: 80px;
+
+}
+
+#footer .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#footer .upper .left_half {
+    display: flex;
+    flex-direction: column;
+
+    width: 620px;
+    height: 167px;
+    gap: 32px;
+
+
+}
+
+#footer .upper .left_half h3 {
+
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: #FCFCFC;
+}
+
+#footer .upper .left_half .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+}
+
+#footer .upper .left_half .contacts p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer .upper .left_half .contacts .span_a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.7px;
+    color: #ffffff9b;
+
+}
+
+#footer .upper .left_half .contacts .span_b {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+
+}
+
+#footer .upper .right_half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 326px;
+    height: 230px;
+    position: relative;
+
+}
+
+#footer .upper .right_half div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .upper .right_half div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    color: #ffffff9b;
+    margin-bottom: 30px;
+}
+
+#footer .upper .right_half div ul {
+    list-style: none;
+
+}
+
+#footer .upper .right_half div ul li {
+    margin-bottom: 10px;
+}
+
+#footer .upper .right_half div ul li a {
+    text-decoration: none;
+    color: #FCFCFC;
+}
+
+#footer .upper .right_half .middle_side {
+    position: absolute;
+    right: 125px;
+    top: 55px;
+}
+
+#footer .upper::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #70707B;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer .lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .lower img,
+#footer .lower div {
+    cursor: pointer;
+}
+
+#footer .lower div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footer .lower div img {
+    margin-left: 4px;
+}
