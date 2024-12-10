@@ -16,14 +16,14 @@ body {
 }
 
 section {
-    width: 1440px;
+    width: 85vw;
 }
 
 /*================= 
     HERO AREA
 ===================*/
 #hero_section {
-    height: 1024px;
+    height: 100vh;
     background-image: url(./IMG/Hero\ Image.jpg);
     background-size: cover;
     position: relative;
@@ -56,7 +56,6 @@ section {
     border-radius: 12px;
     background: #FCFCFC;
     cursor: pointer;
-
     font-family: "Satoshi";
     font-size: 16px;
     font-weight: 500;
@@ -64,6 +63,12 @@ section {
     text-align: left;
 
 }
+
+#hero_section .header button:hover {
+    background: #d6d6d6;
+}
+
+
 
 /* #hero_section .header nav {} */
 
@@ -74,23 +79,25 @@ section {
 }
 
 #hero_section .header nav ul li {
-    padding: 5px;
+    padding: 8px;
 }
 
 #hero_section .header nav ul li a {
     text-decoration: none;
     font-family: 'Satoshi';
-    font-size: 14px;
+    font-size: 1.3rem;
     font-weight: 400;
-    line-height: 21.7px;
-    text-align: left;
     color: #FCFCFC;
+}
+
+#hero_section .header nav ul li a:hover {
+    color: #fcfcfcac;
 }
 
 #hero_section .hero_headline {
     position: absolute;
-    top: 732px;
-    left: 78px;
+    bottom: 80px;
+    left: 80px;
     display: flex;
     flex-direction: row;
 
@@ -99,11 +106,10 @@ section {
 
 #hero_section .hero_headline h3 {
     color: #fff;
-    font-family: 'Satoshi';
-    font-size: 90px;
+    font-size: 4.5rem;
     font-weight: 400;
-    line-height: 114.4px;
-    text-align: left;
+    line-height: 6rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 #hero_section .hero_headline h3 span {
@@ -118,32 +124,41 @@ section {
     right: -60px;
     bottom: 10px;
     cursor: pointer;
+    opacity: 0.8;
 
+}
+
+#hero_section .hero_headline .scroll_down:hover {
+    opacity: 0.9;
 }
 
 #hero_section .image_gallery {
     display: flex;
     flex-direction: column;
-    width: 212px;
-    height: 483px;
+    justify-content: center;
+    width: 25vh;
+    height: 60vh;
     position: absolute;
     border-radius: 12px;
     border: 1px solid #fff;
     padding: 8px;
     gap: 12px;
-    top: 508px;
-    left: 1168px;
+    right: 20px;
+    bottom: 20px;
     background: linear-gradient(108.46deg, rgba(255, 255, 255, 0.264) 0%, rgba(255, 255, 255, 0.066) 100%);
-
 }
 
 #hero_section .image_gallery img {
     border-radius: 20px;
+    cursor: pointer;
+}
+
+#hero_section .image_gallery img:hover {
+    border: 3px solid white;
 }
 
 #hero_section .image_gallery #first_gallery_image {
     border: 3px solid white;
-
 }
 
 /*================= 
@@ -159,7 +174,7 @@ section {
 }
 
 #about_us .upper_section {
-    width: 1, 280px;
+    width: 80vw;
     height: 341px;
     gap: 125px;
     display: flex;
@@ -170,9 +185,10 @@ section {
 #about_us .upper_section .learn_more_success {
     width: 493px;
     height: 263px;
-    gap: 32px;
     position: relative;
+
 }
+
 
 #about_us .upper_section .learn_more_success p {
     width: 493px;
@@ -190,17 +206,20 @@ section {
     position: absolute;
     width: 100px;
     height: 40px;
-    font-family: 'Satoshi';
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 24.8px;
-    text-align: left;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
     text-align: center;
     bottom: 0;
+    cursor: pointer;
+    border: none;
+}
 
+#about_us .upper_section .learn_more_success button:hover {
+    /* background-color: #000000d8; */
+    color: #ffffffb1;
 }
 
 #about_us .upper_section .text_about {
