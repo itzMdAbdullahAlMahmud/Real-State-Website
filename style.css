@@ -65,7 +65,7 @@ section {
 
 }
 
-#hero_section .header nav {}
+/* #hero_section .header nav {} */
 
 #hero_section .header nav ul {
     display: flex;
@@ -223,7 +223,7 @@ section {
     margin-top: 40px;
 }
 
-#about_us .facilities .property_card {}
+/* #about_us .facilities .property_card {} */
 
 #about_us .facilities .property_card .property_details {
     width: 100%;
@@ -397,7 +397,7 @@ section {
     bottom: 0;
 }
 
-#property_listing_area .list .cart .cart_details .add_price .address {}
+/* #property_listing_area .list .cart .cart_details .add_price .address {} */
 
 #property_listing_area .list .cart .cart_details .add_price .address h3 {
     font-size: 24px;
@@ -611,7 +611,6 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: ;
 }
 
 #tips_section .tips_carts .cart {
@@ -702,18 +701,94 @@ section {
     height: 648px;
     padding: 57px 56px 57px 56px;
     border-radius: 36px;
-    background-image: url(./IMG/Contact\ Form.png);
+    background-image: url(./IMG/pexels-hemanthnirujogi-2564116.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+#get_help_section .left_half {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+#get_help_section .left_half h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
 
+#get_help_section .left_half p {
+    color: #ffffffdb;
+    font-size: 1.3rem;
+}
 
+#get_help_section .right_half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#get_help_section .right_half form {
+    background-color: #fff;
+    height: 60%;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
 
+}
 
+#get_help_section .right_half form .namebar,
+#get_help_section .right_half form .mailbar {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
+}
 
+#get_help_section .right_half form .namebar label,
+#get_help_section .right_half form .mailbar label {
+    font-size: 20px;
+}
+
+#get_help_section .right_half form .namebar #name,
+#get_help_section .right_half form .mailbar #email {
+    height: 40px;
+    width: 70%;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+#get_help_section .right_half form input[type="text"] {
+    height: 50%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+#get_help_section .right_half form input[type="submit"] {
+    height: 40px;
+    background-color: #000000fa;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#get_help_section .right_half form .namebar #name:focus,
+#get_help_section .right_half form .mailbar #email:focus,
+#get_help_section .right_half form input[type="text"]:focus {
+    outline: 3px solid rgb(0, 162, 255);
+    border: none;
+}
 
 /*================= 
     FOOTER
